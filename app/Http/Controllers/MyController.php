@@ -47,6 +47,10 @@ class MyController extends Controller
             ]
         ];
 
+        // var_dump($cdsDB);die();  // stampa il valora della variabile $cdsDB
+
+        // dd($cdsDB); // alternativa di laravel al var_dump();die() 
+
         return view('pages.cds-page', compact('cdsDB'));
     }
 }

@@ -4,7 +4,6 @@
 
 <div class="cds-container">
 
-
     @foreach ($cdsDB as $item)
     
     <div class="cd">
